@@ -1,6 +1,10 @@
+# dotnet 2.2 issue: https://travis-ci.community/t/dotnet-core-2-2/1216/11
+
 language: csharp
 mono: none
-dotnet: 2.1.502
+sudo: required
+dist: xenial
+dotnet: 2.2
 
 notifications:
   email: false
